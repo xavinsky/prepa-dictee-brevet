@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barème de la dictée</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="index.html">Prépa dictée du brevet</a>
+  <ul>
+    <li><a class="item" href="index.html">Accueil</a></li>
+    <li><a class="item" href="epreuve.html">L'épreuve</a></li>
+    <li><a class="item on" href="bareme.html">Barème</a></li>
+    <li><a class="item" href="orthographe.html">Autres épreuves</a></li>
+    <li><a class="item" href="ecriture.html">Écriture</a></li>
+    <li><a class="item" href="grammaire.html">Grammaire</a></li>
+    <li><a class="item" href="astuces.html">Astuces</a></li>
+    <li><a class="item" href="ressources.html">Ressources</a></li>
+    <li><a class="item" href="sources.html">Sources</a></li>
+  </ul>
+</nav>
+<div class="layout">
+<aside class="side">
+  <div class="side-label">Sur cette page</div>
+  <a href="#bareme">Le barème</a>
+  <a href="#classer">Classer une faute</a>
+  <a href="#exemple">Exemple de calcul</a>
+  <a href="#calcul">Calculateur à deux joueurs</a>
+  <a href="#sources">Sources</a>
+</aside>
+<main>
+  <h1>Le barème de la dictée</h1>
+  <p class="lead">La dictée est notée sur 10 points. On part de 10 et on retire des points pour chaque faute, selon son type.</p>
+
+  <section class="card" id="bareme">
+    <h2>Le barème</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Type de faute</th><th>Exemples</th><th>Retrait</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Grammaticale</strong></td><td>accord sujet-verbe, accord dans le groupe nominal, participe passé, conjugaison, homophone grammatical (a/à, et/est, ces/ses…), -é / -er</td><td><strong>−1 point</strong></td></tr>
+        <tr><td><strong>Lexicale</strong> (orthographe d'usage)</td><td>consonne doublée ou non, lettre muette oubliée, mot mal orthographié (<span class="ko">apeller</span> → <span class="ok">appeler</span>)</td><td><strong>−0,5 point</strong></td></tr>
+        <tr><td><strong>Petites erreurs</strong></td><td>accent, majuscule, ponctuation, trait d'union</td><td><strong>−0,5 point par série de 4</strong></td></tr>
+      </tbody>
+    </table></div>
+    <h3>Les règles qui s'y ajoutent</h3>
+    <ul>
+      <li>Une même faute répétée sur le même mot n'est comptée qu'une fois.</li>
+      <li>La note ne descend pas en dessous de 0.</li>
+      <li>Une lettre illisible ou ambiguë est en général comptée comme fausse (voir la page <a href="ecriture.html">Écriture</a>).</li>
+      <li>Un mot oublié compte comme une faute, et peut en entraîner d'autres (un sujet oublié rend l'accord du verbe impossible à vérifier).</li>
+    </ul>
+    <div class="info">Ce barème est celui que décrivent la plupart des sources récentes. La grille exacte est transmise aux correcteurs avec le sujet, chaque année, et n'est pas publiée. Certaines sources donnent un barème plus doux (−0,5 pour une faute de grammaire, −0,25 pour une faute d'usage) : s'entraîner avec le plus sévère est plus sûr.</div>
+  </section>
+
+  <section class="card" id="classer">
+    <h2>Classer une faute</h2>
+    <p>Une question suffit : <strong>la faute dépend-elle de la phrase, ou seulement du mot ?</strong></p>
+    <ul>
+      <li>Si la bonne orthographe dépend d'un autre mot de la phrase (le sujet, le nom, le COD placé avant…) ou du temps du verbe, c'est une <strong>faute de grammaire</strong>.</li>
+      <li>Si le mot s'écrit toujours de la même façon, quelle que soit la phrase, et qu'il suffisait de le connaître, c'est une <strong>faute d'usage</strong>.</li>
+    </ul>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Écrit</th><th>Correct</th><th>Type</th></tr></thead>
+      <tbody>
+        <tr><td><span class="ko">les enfants mange</span></td><td><span class="ok">les enfants mangent</span></td><td>Grammaire (accord sujet-verbe)</td></tr>
+        <tr><td><span class="ko">elle est arrivé</span></td><td><span class="ok">elle est arrivée</span></td><td>Grammaire (participe passé avec être)</td></tr>
+        <tr><td><span class="ko">il a commencer</span></td><td><span class="ok">il a commencé</span></td><td>Grammaire (-é / -er)</td></tr>
+        <tr><td><span class="ko">il marchait a pas lents</span></td><td><span class="ok">il marchait à pas lents</span></td><td>Grammaire (homophone a/à)</td></tr>
+        <tr><td><span class="ko">un batiment</span></td><td><span class="ok">un bâtiment</span></td><td>Accent (petite erreur)</td></tr>
+        <tr><td><span class="ko">un rhinocérosse</span></td><td><span class="ok">un rhinocéros</span></td><td>Usage</td></tr>
+        <tr><td><span class="ko">souvant</span></td><td><span class="ok">souvent</span></td><td>Usage</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="card" id="exemple">
+    <h2>Exemple de calcul</h2>
+    <p>Une copie contient 4 fautes de grammaire, 3 fautes d'usage et 5 erreurs d'accent ou de ponctuation :</p>
+    <ul>
+      <li>grammaire : 4 × 1 = 4 points</li>
+      <li>usage : 3 × 0,5 = 1,5 point</li>
+      <li>accents et ponctuation : 5 erreurs = une série complète de 4, soit 0,5 point</li>
+    </ul>
+    <p>Note : 10 − 4 − 1,5 − 0,5 = <strong>4 / 10</strong>. Sans les 4 fautes de grammaire, la même copie aurait obtenu 8.</p>
+  </section>
+
+  <section class="card" id="calcul">
+    <h2>Calculateur à deux joueurs</h2>
+    <p>Chacun corrige la copie de l'autre, compte les fautes par catégorie, et saisit les nombres ci-dessous.</p>
+    <div class="info"><strong>Handicap selon le niveau :</strong> les points retirés sont multipliés par <strong>2</strong> pour un élève de seconde ou plus, et par <strong>3</strong> pour un adulte. Exemple : une faute de grammaire coûte 1 point à un collégien, 2 points à un lycéen, 3 points à un adulte.</div>
+    <div class="calc">
+      <div class="player" data-p="1">
+        <label><input class="name" value="Joueur 1" aria-label="Nom du joueur 1"></label>
+        <label>Niveau <select data-k="m" aria-label="Niveau du joueur 1">
+          <option value="1" selected>Collégien (×1)</option>
+          <option value="2">Seconde ou plus (×2)</option>
+          <option value="3">Adulte (×3)</option>
+        </select></label>
+        <label>Fautes de grammaire <input type="number" min="0" value="0" data-k="g"></label>
+        <label>Fautes d'usage <input type="number" min="0" value="0" data-k="l"></label>
+        <label>Accents, majuscules, ponctuation <input type="number" min="0" value="0" data-k="p"></label>
+        <div>Points retirés : <span class="retrait">0</span></div>
+        <div>Note : <span class="score">10</span> / 10</div>
+      </div>
+      <div class="player" data-p="2">
+        <label><input class="name" value="Joueur 2" aria-label="Nom du joueur 2"></label>
+        <label>Niveau <select data-k="m" aria-label="Niveau du joueur 2">
+          <option value="1">Collégien (×1)</option>
+          <option value="2">Seconde ou plus (×2)</option>
+          <option value="3" selected>Adulte (×3)</option>
+        </select></label>
+        <label>Fautes de grammaire <input type="number" min="0" value="0" data-k="g"></label>
+        <label>Fautes d'usage <input type="number" min="0" value="0" data-k="l"></label>
+        <label>Accents, majuscules, ponctuation <input type="number" min="0" value="0" data-k="p"></label>
+        <div>Points retirés : <span class="retrait">0</span></div>
+        <div>Note : <span class="score">10</span> / 10</div>
+      </div>
+    </div>
+    <div class="winner" id="winner">Égalité.</div>
+    <p><button class="btn reset" id="reset" type="button">Remettre à zéro</button></p>
+  </section>
+
+  <section class="card" id="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.acadomia.fr/actualite/dictee-brevet-preparation-attentes-correcteurs/">Acadomia : ce que les correcteurs attendent</a></li>
+      <li><a href="https://brevetia.fr/dictee-brevet/2026/">Brevetia : dictée brevet 2026, corrigé et barème</a></li>
+      <li><a href="https://vis-ma-classe.fr/blog/bareme-dictee-brevet-fautes-prioritaires/">Vis ma classe : barème de la dictée du brevet</a></li>
+      <li><a href="https://www.progresser-en-orthographe.com/reussir-la-dictee-au-dnb-cest-facile/">Progresser en orthographe : réussir la dictée du DNB</a></li>
+      <li><a href="https://www.papa-backstage.fr/bareme-dictee-brevet/">Papa Backstage : barème de la dictée</a> (barème plus doux)</li>
+    </ul>
+  </section>
+</main>
+</div>
+<script>
+(function(){
+  var players = document.querySelectorAll('.player');
+  function num(el){ var v = parseInt(el.value, 10); return isNaN(v) || v < 0 ? 0 : v; }
+  function noteOf(p){
+    var g = num(p.querySelector('[data-k=g]')), l = num(p.querySelector('[data-k=l]')), q = num(p.querySelector('[data-k=p]'));
+    var m = parseInt(p.querySelector('[data-k=m]').value, 10) || 1;
+    var retrait = m * (g + 0.5 * l + 0.5 * Math.floor(q / 4));
+    p.querySelector('.retrait').textContent = fmt(retrait);
+    return Math.max(0, 10 - retrait);
+  }
+  function fmt(n){ return String(n).replace('.', ','); }
+  function update(){
+    var notes = [];
+    players.forEach(function(p){ var n = noteOf(p); notes.push(n); p.querySelector('.score').textContent = fmt(n); });
+    var names = Array.prototype.map.call(players, function(p){ return p.querySelector('.name').value || 'Joueur'; });
+    var w = document.getElementById('winner');
+    if (notes[0] === notes[1]) w.textContent = 'Égalité.';
+    else { var i = notes[0] > notes[1] ? 0 : 1; w.textContent = names[i] + ' gagne de ' + fmt(Math.abs(notes[0] - notes[1])) + ' point(s).'; }
+  }
+  document.querySelectorAll('.player input, .player select').forEach(function(i){ i.addEventListener('input', update); });
+  document.getElementById('reset').addEventListener('click', function(){
+    document.querySelectorAll('.player input[type=number]').forEach(function(i){ i.value = 0; });
+    update();
+  });
+  update();
+})();
+</script>
+</body>
+</html>
