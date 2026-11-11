@@ -4,6 +4,6 @@ Site de préparation à la dictée du brevet des collèges : déroulé de l'épr
 
 En ligne : https://tekio.org/prepa-dictee-brevet/
 
-Pour s'entraîner : [OrthoStar](https://tekio.org/orthostar/), jeu d'orthographe (lexique, grammaire, conjugaison).
+Pour s'entraîner : [OrthoStar](https://tekio.org/orthostar/), jeu d'orthographe (lexique, grammaire, conjugaison). Fait partie d'[EduStar](https://tekio.org/edustar/).
 
 Site statique, sans build : ouvrir `index.html` dans un navigateur. Publication par GitHub Pages à chaque push sur `main` (`.github/workflows/pages.yml`).
