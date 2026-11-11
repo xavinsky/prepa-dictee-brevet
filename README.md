@@ -1,6 +1,6 @@
 # Prépa dictée du brevet
 
-Site de préparation à la dictée du brevet des collèges : déroulé de l'épreuve, barème, place de l'orthographe dans les autres épreuves, écriture, règles de grammaire, astuces, ressources et sources.
+Site de préparation à la dictée du brevet des collèges : déroulé de l'épreuve, barème, place de l'orthographe dans les autres épreuves, écriture, règles de grammaire, règles de conjugaison, astuces, ressources et sources.
 
 En ligne : https://tekio.org/prepa-dictee-brevet/
 
